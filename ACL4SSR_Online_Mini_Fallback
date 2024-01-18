@@ -19,7 +19,7 @@ ruleset=🎯 全球直连,rules/ACL4SSR/Clash/ChinaCompanyIp.list
 ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
 
-custom_proxy_group=🚀 节点选择`select`[]🔮 负载均衡`[]🔯 故障转移`[]DIRECT`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🚀 节点选择`fallback`[]🔮 负载均衡`[]🔯 故障转移`[]DIRECT`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🔯 故障转移`fallback`.*`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🔮 负载均衡`load-balance`.*`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择
